@@ -1,0 +1,29 @@
+module CustomItems
+{
+    
+    item Bag_SuperBag
+    {
+        DisplayCategory = Bag,
+        ItemType = base:container,
+        Weight = 1.0,
+        Icon = AliceBag,
+        AttachmentReplacement = Bag,
+        BloodLocation = Bag,
+        CanBeEquipped = base:back,
+        CanHaveHoles = false,
+        Capacity = 36,
+        CloseSound = CloseBag,
+        ClothingItem = Bag_ALICEpack,
+        EquipSound = EquipBackpackLarge,
+        OpenSound = OpenBag,
+        PutInSound = PutItemInBag,
+        ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+        RunSpeedModifier = 0.94,
+        WeightReduction = 95,
+        WorldStaticModel = ALICE_Pack_Ground,
+        AttachmentsProvided = BedrollBottomALICE,
+        Tags = base:ignorezombiedensity;base:isfirefuel;base:isfiretinder,
+        Researchablerecipes = SewCrudeLeatherBackpack,
+    }
+}

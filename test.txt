@@ -1,0 +1,3 @@
+ItemName_EN = {{
+    ItemName_Base.Bag_ALICEpack = "Military Backpack",
+}
